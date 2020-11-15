@@ -61,7 +61,7 @@ var fight = function (enemy) {
         ". " +
         playerInfo.name +
         " now has " +
-        playerInfo.health +
+        playerInfo.health + 
         " health remaining."
     );
 
@@ -170,7 +170,7 @@ var getPlayerName = function () {
   while (name === "" || name === null) {
     name = prompt("What is your robot's name?");
   }
-  console.log(""Your robot's name is "" + name");
+  console.log("'Your robot's name is ' + name");
   return name;
 };
 
